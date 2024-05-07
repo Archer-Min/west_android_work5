@@ -54,7 +54,7 @@ class MainActivity : ComponentActivity() {
                     }
 
                     Row(verticalAlignment = Alignment.CenterVertically) {
-                        Text("输入坐标\n（例：30，60，90）: ")
+                        Text("输入坐标\n（例：30,60,90）: ")
                         TextField(value = textState.value, onValueChange = { textState.value = it })
                     }
                     Spacer(modifier = Modifier.height(16.dp))
